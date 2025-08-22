@@ -21,7 +21,7 @@ def start_client():
                 message_to_send = input("Sua mensagem > ")
                 
                 # Verifica se o usuário quer sair
-                if message_to_send.lower() in ('sair', 'exit'):
+                if message_to_send in ('QUIT'):
                     print("[*] Encerrando o cliente...")
                     break # Sai do loop e fecha a conexão
                 
